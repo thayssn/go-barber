@@ -1,7 +1,7 @@
 {
-  "name": "express-boilerplate",
+  "name": "go-barber",
   "version": "0.0.1",
-  "description": "A boilerplate for new express projects",
+  "description": "Go Barber Backend",
   "author": "Thays <thays.sn@hotmail.com>",
   "license": "MIT",
   "scripts": {
@@ -19,6 +19,8 @@
   "engineStrict": true,
   "devDependencies": {
     "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.18.0",
     "husky": "^2.4.1",
     "nodemon": "^1.19.1",
     "sucrase": "^3.10.1"
@@ -26,5 +28,6 @@
   "dependencies": {
     "express": "^4.17.1"
   },
-  "main": "./src/server.js"
+  "main": "./src/server.js",
+  "repository": "git@github.com:thayssn/go-barber.git"
 }
